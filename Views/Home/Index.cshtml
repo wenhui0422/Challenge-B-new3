@@ -1,0 +1,59 @@
+﻿@using ChallengeB.Models;
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="row">
+    <div class="form-group col-md-12">
+        <div>
+            <h2>Lists Files Downloaded:</h2>
+            <table class="table" id="tbUserDocs">
+                <thead>
+                    <tr>
+                        <th>CSV File Name</th>
+                        <th>Downloaded Time</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var file in Model)
+                    {
+                        <tr>
+                            <td><a href="#" class="viewcsv" data-filepath="@file.FilePath">@file.FileName</a></td>
+                            <td>@file.CreatedDate</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+@section Scripts
+    {
+    <script>
+
+        $('.viewcsv').on('click', function (e) {
+
+            var filepath = $(this).data("filepath");
+            var formData = { filepath: filepath };
+
+            $.ajax({
+                method: "POST",
+                url: "/Home/ViewFile",
+                data: formData,
+                success: function (result) {
+
+                    if (!result.hasOwnProperty("errorNo")) {
+                        if (!result.data) {
+                            alert("File not exist.");
+                        }
+                    }
+                },
+                error: function (response) {
+                },
+                async: false
+            });
+
+        });
+    </script>
+}

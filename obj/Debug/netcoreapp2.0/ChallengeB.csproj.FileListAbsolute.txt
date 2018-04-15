@@ -1,0 +1,10 @@
+c:\users\david\source\repos\ChallengeB\ChallengeB\bin\Debug\netcoreapp2.0\ChallengeB.deps.json
+c:\users\david\source\repos\ChallengeB\ChallengeB\bin\Debug\netcoreapp2.0\ChallengeB.runtimeconfig.json
+c:\users\david\source\repos\ChallengeB\ChallengeB\bin\Debug\netcoreapp2.0\ChallengeB.runtimeconfig.dev.json
+c:\users\david\source\repos\ChallengeB\ChallengeB\bin\Debug\netcoreapp2.0\ChallengeB.dll
+c:\users\david\source\repos\ChallengeB\ChallengeB\bin\Debug\netcoreapp2.0\ChallengeB.pdb
+c:\users\david\source\repos\ChallengeB\ChallengeB\obj\Debug\netcoreapp2.0\ChallengeB.csproj.CoreCompileInputs.cache
+c:\users\david\source\repos\ChallengeB\ChallengeB\obj\Debug\netcoreapp2.0\ChallengeB.AssemblyInfoInputs.cache
+c:\users\david\source\repos\ChallengeB\ChallengeB\obj\Debug\netcoreapp2.0\ChallengeB.AssemblyInfo.cs
+c:\users\david\source\repos\ChallengeB\ChallengeB\obj\Debug\netcoreapp2.0\ChallengeB.dll
+c:\users\david\source\repos\ChallengeB\ChallengeB\obj\Debug\netcoreapp2.0\ChallengeB.pdb
